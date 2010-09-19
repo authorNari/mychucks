@@ -13,7 +13,7 @@ dac => Gain g => WvOut w => blackhole;
 filename => w.wavFilename;
 <<<"writing to file:", "'" + w.filename() + "'">>>;
 // any gain you want for the output
-.5 => g.gain;
+.9 => g.gain;
 
 // infinite time loop...
 // ctrl-c will stop it, or modify to desired duration
